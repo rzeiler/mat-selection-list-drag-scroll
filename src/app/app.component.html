@@ -1,0 +1,13 @@
+<div class="app" >
+  <mat-toolbar>
+    {{title}}
+  </mat-toolbar>
+  <mat-selection-list> 
+    <mat-list-option *ngFor="let section of sections">
+      <h3 matLine> {{section.Name}} </h3>
+      <p matLine>Email: {{section.Email}}</p>
+      <p matLine>Inc: {{section.Inc}}</p>
+      <p matLine>Phone: {{section.Phone}}</p>
+    </mat-list-option>
+  </mat-selection-list>
+</div>

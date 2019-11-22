@@ -1,0 +1,11 @@
+ .app {
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+ }
+
+ .mat-selection-list.mat-list-base {
+   flex: 1 0 auto;
+   overflow: auto;
+   height: 1px;
+ }
